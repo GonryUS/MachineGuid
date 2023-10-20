@@ -8,11 +8,11 @@ regedit = (f"Windows Registry Editor Version 5.00\n\n"
 '"MachineGuid"="'
     + str(myuuid)
     +'"')
-arquivo = open("MachineGuid - "+ str(myuuid)+".reg", 'w+')
-texto = arquivo.readlines()
-texto.append(regedit)
-arquivo.writelines(texto)
-arquivo.close()
+#arquivo = open("MachineGuid - "+ str(myuuid)+".reg", 'w+')
+#texto = arquivo.readlines()
+#texto.append(regedit)
+#arquivo.writelines(texto)
+#arquivo.close()
 
 st.download_button(
     label="Baixe seu MachineGuid AQUI",
