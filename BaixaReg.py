@@ -16,11 +16,6 @@ arquivo.close()
 
 
 @st.cache
-def convert_reg(df):
-    # IMPORTANT: Cache the conversion to prevent computation on every rerun
-    return df.to_txt().encode('utf-8')
-
-reg = convert_reg(regedit)
 
 st.download_button(
     label="Baixe seu MachineGuid AQUI",
