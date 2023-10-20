@@ -14,9 +14,6 @@ texto.append(regedit)
 arquivo.writelines(texto)
 arquivo.close()
 
-
-@st.cache
-
 st.download_button(
     label="Baixe seu MachineGuid AQUI",
     data=regedit,
