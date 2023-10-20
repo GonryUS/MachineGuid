@@ -19,7 +19,7 @@ arquivo.close()
 
 st.download_button(
     label="Baixe seu MachineGuid AQUI",
-    data=reg,
+    data=regedit,
     file_name="MachineGuid - "+ str(myuuid)+".reg",
     mime='text/reg',
 )
