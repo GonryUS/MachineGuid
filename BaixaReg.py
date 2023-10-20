@@ -17,3 +17,5 @@ st.download_button(
     file_name="MachineGuid - "+ str(myuuid)+".reg",
     mime='text/reg',
 )
+st.balloons()
+st.snow()
